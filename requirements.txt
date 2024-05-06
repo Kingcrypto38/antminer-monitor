@@ -14,3 +14,4 @@ gunicorn
 # dev
 isort==4.3.21
 yapf==0.29.0
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
